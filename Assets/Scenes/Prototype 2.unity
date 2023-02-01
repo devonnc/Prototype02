@@ -551,6 +551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   speed: 10
+  xRange: 10
 --- !u!1001 &565821410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -868,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.9
+      value: -4.82
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc01a3bb589cebc4aa10892db165243b, type: 3}
       propertyPath: m_LocalPosition.y
