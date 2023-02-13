@@ -587,19 +587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d604ac61df3e4483bc3e579a6a3f5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1070101956
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070101948}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10.253326, y: 14.807792, z: 19.42946}
-  m_Center: {x: 1.9054388, y: 9.217481, z: 2.204367}
 --- !u!1 &1187781069 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 120214, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
@@ -630,19 +617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d604ac61df3e4483bc3e579a6a3f5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1187781078
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187781069}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 12.440827, y: 15.545098, z: 19.13947}
-  m_Center: {x: -1.8318458, y: 8.668684, z: 2.3755515}
 --- !u!1 &1344609414 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5045348287286357177, guid: 571fda0e2b8b447b698916de45fcec53, type: 3}
@@ -936,7 +910,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3306374226916773015, guid: fe2c697c071b14c499746d41fecb2ce2, type: 3}
+    - {fileID: -8513797018425233420, guid: fe2c697c071b14c499746d41fecb2ce2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe2c697c071b14c499746d41fecb2ce2, type: 3}
 --- !u!1001 &5045348288533588179
 PrefabInstance:
@@ -1013,7 +989,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Chick
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 249558264734481434, guid: 571fda0e2b8b447b698916de45fcec53, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 571fda0e2b8b447b698916de45fcec53, type: 3}
 --- !u!1001 &8940930547404294181
 PrefabInstance:
