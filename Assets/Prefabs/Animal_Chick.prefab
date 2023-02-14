@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5045348287286217221}
   - component: {fileID: 5045348287272917995}
-  - component: {fileID: 6467836431184875426}
   m_Layer: 0
   m_Name: SA_Animal_Chick
   m_TagString: Untagged
@@ -93,19 +92,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000023841858, y: -0.34530044, z: 0.24290848}
     m_Extent: {x: 1.6054511, y: 2.9824944, z: 3.8762627}
   m_DirtyAABB: 0
---- !u!65 &6467836431184875426
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045348287286348597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.2109022, y: 5.9649887, z: 7.7525253}
-  m_Center: {x: -0.0000023839395, y: 2.9824946, z: 0.24290846}
 --- !u!1 &5045348287286356145
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +134,6 @@ GameObject:
   - component: {fileID: 5045348287286309953}
   - component: {fileID: 5045348287276946703}
   - component: {fileID: 5045348287064688026}
-  - component: {fileID: 249558264734481434}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -163,7 +148,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5045348287286357177}
-  m_LocalRotation: {x: -0, y: 0.99987125, z: -0, w: -0.016046686}
+  m_LocalRotation: {x: 0, y: 0.9998713, z: -0, w: -0.016047684}
   m_LocalPosition: {x: 5.7134, y: -0.38673, z: 15.732}
   m_LocalScale: {x: 0.21966301, y: 0.21966301, z: 0.21966301}
   m_ConstrainProportionsScale: 0
@@ -205,20 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf2361ae234bf4636a14a9b9d2e2bbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
---- !u!65 &249558264734481434
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045348287286357177}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7.4038706, y: 3.0794296, z: 1}
-  m_Center: {x: -1.5226165, y: 1.0397118, z: 0.0000000037252903}
+  speed: 13
 --- !u!1 &5045348287286365625
 GameObject:
   m_ObjectHideFlags: 0

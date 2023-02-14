@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8954963562081947525}
   - component: {fileID: 8940930546856170579}
   - component: {fileID: 4980677482107045667}
-  - component: {fileID: 3205051211576354531}
-  - component: {fileID: -7202033743958077659}
+  - component: {fileID: -5178746851234468399}
+  - component: {fileID: -5650775056401609573}
   m_Layer: 0
   m_Name: Food_Banana_01
   m_TagString: Untagged
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d604ac61df3e4483bc3e579a6a3f5f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &3205051211576354531
+--- !u!65 &-5178746851234468399
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +125,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.50622404, y: 0.4757379, z: 0.48445186}
   m_Center: {x: 0, y: 0.009565256, z: 0.021385124}
---- !u!54 &-7202033743958077659
+--- !u!54 &-5650775056401609573
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
